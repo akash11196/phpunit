@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+		  printerFile="vendor/whatthejeff/nyancat-phpunit-resultprinter/src/NyanCat/PHPUnit/ResultPrinter.php"
+			printerClass="NyanCat\PHPUnit\ResultPrinter">
+		  <testsuites>
+		  	<testsuites name="Test suite">
+		  		<file>tests/test.php</file>
+		  </testsuites>
+		  </testsuites>
+	</phpunit>
